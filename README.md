@@ -1,27 +1,92 @@
-# React + TypeScript + Vite
+# Vite React Boilerplate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- It is a Vite with React boilerplate.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- React Query
+- TypeScript
+- Vite
+- Axios
+- Formik
+- TailwindCSS
+- Yup
+- Testing Library
+- Jest
+- Vitest
+- Prettier
+- Dockerfile
+- Docker Compose
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 1. Clone the project
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```sh
+git clone git@github.com:matheusdoedev/nextjs-boilerplate.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Running project in development mode
+
+### 1. Install dependencies
+
+```sh
+npm install
+
+yarn
+```
+
+### 2. Run project
+
+```sh
+npm run dev
+
+yarn dev
+```
+
+## Running project in production mode with Docker & Docker Compose
+
+#### 1. Run with docker-compose
+
+```sh
+docker-compose up
+
+# or in detach mode
+
+docker-compose up -d
+```
+
+## Running project in production mode without Docker
+
+### 1. Install dependencies
+
+```sh
+npm install
+
+yarn
+```
+
+### 2. Build project
+
+```sh
+npm run build
+
+yarn build
+```
+
+### 3. Run project
+
+```sh
+npm preview
+
+yarn preview
+```
+
+## Contributing
+
+1. Fork it (<git@github.com:matheusdoedev/pizza-army.git>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes following conventional commits pattern (`git commit -am 'feat: add some feature'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Reques
