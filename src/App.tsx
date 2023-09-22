@@ -9,13 +9,15 @@ import { Reset, theme } from '@/styles'
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <Reset />
+    <div data-testid="app">
+      <ThemeProvider theme={theme}>
+        <Reset />
 
-      <QueryClientProvider client={queryProvider}>
-        <RouterProvider router={router} />
-      </QueryClientProvider>
-    </ThemeProvider>
+        <QueryClientProvider client={queryProvider}>
+          <RouterProvider router={router} />
+        </QueryClientProvider>
+      </ThemeProvider>
+    </div>
   )
 }
 
