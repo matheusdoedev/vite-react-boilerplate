@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export const Reset = createGlobalStyle`
 	*, ul, ol, dl {
@@ -43,4 +43,4 @@ export const Reset = createGlobalStyle`
 	fieldset {
         border: none;
     }
-`;
+`

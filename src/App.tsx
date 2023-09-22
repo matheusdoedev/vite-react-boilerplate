@@ -1,11 +1,11 @@
-import { RouterProvider } from "react-router-dom";
-import { QueryClientProvider } from "react-query";
-import { ThemeProvider } from "styled-components";
+import { RouterProvider } from 'react-router-dom'
+import { QueryClientProvider } from 'react-query'
+import { ThemeProvider } from 'styled-components'
 
-import { queryProvider } from "@/providers";
-import { router } from "@/routes";
+import { queryProvider } from '@/providers'
+import { router } from '@/routes'
 
-import { Reset, theme } from "@/styles";
+import { Reset, theme } from '@/styles'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <RouterProvider router={router} />
       </QueryClientProvider>
     </ThemeProvider>
-  );
+  )
 }
 
-export default App;
+export default App

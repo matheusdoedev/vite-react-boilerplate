@@ -1,2 +1,2 @@
-export * from "./fetchProvider";
-export * from "./queryProvider";
+export * from './fetchProvider'
+export * from './queryProvider'

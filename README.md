@@ -15,6 +15,7 @@
 - Testing Library
 - Jest
 - Vitest
+- ESLint
 - Prettier
 - Dockerfile
 - Docker Compose
